@@ -5,7 +5,6 @@ from model.controls.top_nodes import TopNodesAnalyzer
 from model.controls.top_subnets import TopSubnetsAnalyzer
 from model.controls.find_proxy_nodes import ProxyFinder
 
-
 if __name__ == "__main__":
     file_path = "traf.txt"
     traffic_data = read_traffic_data(file_path)
